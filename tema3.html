@@ -3,15 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Resum del tema 3: com representa la informaciÛ un ordinador.">
-    <title>Tema 3 ∑ Els nombres de l'ordinador</title>
+    <meta name="description" content="Resum del tema 3: com representa la informaci√≥ un ordinador.">
+    <title>Tema 3 ¬∑ Els nombres de l'ordinador</title>
     <link rel="stylesheet" href="css/stils.css">
 </head>
 <body>
     <header class="capcalera" id="inici">
-        <p class="etiqueta">Sistemes Operatius Monolloc ∑ Tema 3</p>
+        <p class="etiqueta">Sistemes Operatius Monolloc ¬∑ Tema 3</p>
         <h1>Els nombres de l'ordinador</h1>
-        <p class="introduccio">Bits, nombres, unitats i lletres: una mirada a com l'ordinador representa la informaciÛ.</p>
+        <p class="introduccio">Bits, nombres, unitats i lletres: una mirada a com l'ordinador representa la informaci√≥.</p>
     </header>
 
     <nav class="navegacio" aria-label="Apartats del tema">
@@ -19,59 +19,60 @@
         <a href="#hexadecimal">02 <span>Hexadecimal</span></a>
         <a href="#unitats">03 <span>Unitats</span></a>
         <a href="#lletres">04 <span>Lletres</span></a>
+        <a href="#pas8">08 <span>Entitats</span></a>
         <a href="#idees">05 <span>Resum</span></a>
     </nav>
 
     <main>
         <section id="bit" aria-labelledby="bit-titol">
             <h2 id="bit-titol"><span class="numero-apartat">01</span>El bit i el sistema binari</h2>
-            <p>Un ordinador treballa amb senyals que podem representar amb dos estats: <strong>0 i 1</strong>. La unitat mÌnima d'informaciÛ s'anomena bit.</p>
-            <p>Amb diversos bits podem representar mÈs valors. Cada posiciÛ del sistema binari correspon a una potËncia de dos: 1, 2, 4, 8, 16 i aixÌ successivament.</p>
-            <p>Per convertir un nombre binari a decimal, sumem els valors de les posicions que tenen un 1. Per exemple, 1011? Ès 8 + 2 + 1, Ès a dir, 11??.</p>
+            <p>Un ordinador treballa amb senyals que podem representar amb dos estats: <strong>0 i 1</strong>. La unitat m√≠nima d'informaci√≥ s'anomena bit.</p>
+            <p>Amb diversos bits podem representar m√©s valors. Cada posici√≥ del sistema binari correspon a una pot√®ncia de dos: 1, 2, 4, 8, 16 i aix√≠ successivament.</p>
+            <p>Per convertir un nombre binari a decimal, sumem els valors de les posicions que tenen un 1. Per exemple, 1011 √©s 8 + 2 + 1, √©s a dir, 11.</p>
         </section>
 
         <section id="hexadecimal" aria-labelledby="hexadecimal-titol">
             <h2 id="hexadecimal-titol"><span class="numero-apartat">02</span>El sistema hexadecimal</h2>
-            <p>El sistema hexadecimal Ès de base 16. Fa servir els nombres del 0 al 9 i les lletres de la A a la F per representar els valors del 10 al 15.</p>
-            <p>…s una manera compacta d'escriure nombres binaris: cada xifra hexadecimal equival exactament a quatre bits. Per aixÚ es fa servir sovint per llegir adreces i valors de memÚria.</p>
+            <p>El sistema hexadecimal √©s de base 16. Fa servir els nombres del 0 al 9 i les lletres de la A a la F per representar els valors del 10 al 15.</p>
+            <p>√âs una manera compacta d'escriure nombres binaris: cada xifra hexadecimal equival exactament a quatre bits. Per aix√≤ es fa servir sovint per llegir adreces i valors de mem√≤ria.</p>
         </section>
 
         <section id="unitats" aria-labelledby="unitats-titol">
-            <h2 id="unitats-titol"><span class="numero-apartat">03</span>Les unitats d'informaciÛ</h2>
-            <p>Vuit bits formen un <strong>byte</strong>, que tambÈ s'anomena octet. Els fitxers i la capacitat dels dispositius sovint es mesuren en bytes i en unitats mÈs grans.</p>
-            <p>Les unitats decimals i les bin‡ries no sÛn iguals: un quilobyte (kB) sÛn 1.000 bytes, mentre que un kibibyte (KiB) sÛn 1.024 bytes.</p>
+            <h2 id="unitats-titol"><span class="numero-apartat">03</span>Les unitats d'informaci√≥</h2>
+            <p>Vuit bits formen un <strong>byte</strong>, que tamb√© s'anomena octet. Els fitxers i la capacitat dels dispositius sovint es mesuren en bytes i en unitats m√©s grans.</p>
+            <p>Les unitats decimals i les bin√†ries no s√≥n iguals: un quilobyte (kB) s√≥n 1.000 bytes, mentre que un kibibyte (KiB) s√≥n 1.024 bytes.</p>
             <table>
-                <caption>Valors de les unitats mÈs habituals</caption>
+                <caption>Valors de les unitats m√©s habituals</caption>
                 <thead>
                     <tr>
                         <th scope="col">Unitat</th>
-                        <th scope="col">EquivalËncia</th>
+                        <th scope="col">Equival√®ncia</th>
                         <th scope="col">Base</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr><td>1 byte (B)</td><td>8 bits</td><td>?</td></tr>
                     <tr><td>1 kB</td><td>1.000 bytes</td><td>Decimal</td></tr>
-                    <tr><td>1 KiB</td><td>1.024 bytes</td><td>Bin‡ria</td></tr>
+                    <tr><td>1 KiB</td><td>1.024 bytes</td><td>Bin√†ria</td></tr>
                     <tr><td>1 MB</td><td>1.000.000 bytes</td><td>Decimal</td></tr>
-                    <tr><td>1 MiB</td><td>1.048.576 bytes</td><td>Bin‡ria</td></tr>
+                    <tr><td>1 MiB</td><td>1.048.576 bytes</td><td>Bin√†ria</td></tr>
                 </tbody>
             </table>
         </section>
 
         <section id="lletres" aria-labelledby="lletres-titol">
             <h2 id="lletres-titol"><span class="numero-apartat">04</span>Com es representen les lletres</h2>
-            <p>Per desar text, cada car‡cter es relaciona amb un valor numËric mitjanÁant una codificaciÛ. ASCII representa un conjunt b‡sic de car‡cters amb un byte.</p>
-            <p>Latin-1 amplia aquest conjunt amb car‡cters de lleng¸es occidentals. UTF-8 Ès una codificaciÛ d'ampli ˙s que pot representar car‡cters de moltes lleng¸es i tambÈ sÌmbols com l'euro.</p>
-            <p>En UTF-8, les lletres b‡siques d'ASCII ocupen un byte i molts car‡cters accentuats n'ocupen dos. En Latin-1, els car‡cters que hi sÛn representats ocupen un byte.</p>
+            <p>Per desar text, cada car√†cter es relaciona amb un valor num√®ric mitjan√ßant una codificaci√≥. ASCII representa un conjunt b√†sic de car√†cters amb un byte.</p>
+            <p>Latin-1 amplia aquest conjunt amb car√†cters de lleng√ºes occidentals. UTF-8 √©s una codificaci√≥ d'ampli √∫s que pot representar car√†cters de moltes lleng√ºes i tamb√© s√≠mbols com l'euro.</p>
+            <p>En UTF-8, les lletres b√†siques d'ASCII ocupen un byte i molts car√†cters accentuats n'ocupen dos. En Latin-1, els car√†cters que hi s√≥n representats ocupen un byte.</p>
             <div class="recorda">
-                <p><strong>Recorda:</strong> el fitxer i les indicacions de codificaciÛ han de coincidir. Desa les p‡gines en UTF-8 i declara-ho amb <code>&lt;meta charset="utf-8"&gt;</code>.</p>
+                <p><strong>Recorda:</strong> el fitxer i les indicacions de codificaci√≥ han de coincidir. Desa les p√†gines en UTF-8 i declara-ho amb <code>&lt;meta charset="utf-8"&gt;</code>.</p>
             </div>
         </section>
 
         <section id="pas8" class="pas8" aria-labelledby="pas8-titol">
-            <h2 id="pas8-titol"><span class="numero-apartat">08</span>Les lletres que no es poden espatllar</h2>
-            <p>En HTML, les lletres especials tambÈ es poden escriure amb entitats: un codi que comenÁa amb <strong>&amp;</strong> i acaba amb <strong>;</strong>. Per exemple:</p>
+            <h2 id="pas8-titol"><span class="numero-apartat">05</span>Les lletres que no es poden espatllar</h2>
+            <p>En HTML, les lletres especials tamb√© es poden escriure amb entitats: un codi que comen√ßa amb <strong>&amp;</strong> i acaba amb <strong>;</strong>. Per exemple:</p>
 
             <table>
                 <thead>
@@ -81,30 +82,43 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr><td>&ccedil</td><td>&amp;ccedil;</td></tr>
-                    <tr><td>&agrave</td><td>&amp;agrave;</td></tr>
-                    <tr><td>&eacute</td><td>&amp;eacute;</td></tr>
-                    <tr><td>&ograve</td><td>&amp;ograve;</td></tr>
-                    <tr><td>&middot</td><td>&amp;middot;</td></tr>
+                    <tr><td>√ß</td><td>&amp;ccedil;</td></tr>
+                    <tr><td>√†</td><td>&amp;agrave;</td></tr>
+                    <tr><td>√©</td><td>&amp;eacute;</td></tr>
+                    <tr><td>√≤</td><td>&amp;ograve;</td></tr>
+                    <tr><td>¬∑</td><td>&amp;middot;</td></tr>
                 </tbody>
             </table>
+
+            <ol>
+                <li>
+                    Afegiex a la p√†gina aquest par√†graf, tal com est√†:
+                    <p class="exemple"><code>&lt;p&gt;Entitats: la codificaci√≥&amp;oacute; de la pa&amp;ccedil;la &amp;eacute; i &amp;middot; ...&lt;/p&gt;</code></p>
+                </li>
+                <li>Desa en Latin-1 (Save with Encoding &gt; Western (ISO 8859-1)), amb el charset a utf-8.</li>
+                <li>Mira el Live Server.</li>
+            </ol>
+        </section>
+
+        <section id="pas9" class="pas9" aria-labelledby="pas9-titol">
+            <p>Torna a desar en UTF-8. Afegiex un par√†graf amb el preu d'un pendrive: Costa 12 &euro;. Desa i comprova que es veu b√©.</p>
         </section>
 
         <section id="idees" aria-labelledby="idees-titol">
-            <h2 id="idees-titol"><span class="numero-apartat">05</span>El que has de saber sÌ o sÌ</h2>
+            <h2 id="idees-titol"><span class="numero-apartat">06</span>El que has de saber s√≠ o s√≠</h2>
             <ul>
-                <li>La informaciÛ de l'ordinador es representa amb bits: 0 i 1.</li>
+                <li>La informaci√≥ de l'ordinador es representa amb bits: 0 i 1.</li>
                 <li>Vuit bits formen un byte.</li>
-                <li>El binari Ès de base 2 i l'hexadecimal Ès de base 16.</li>
+                <li>El binari √©s de base 2 i l'hexadecimal √©s de base 16.</li>
                 <li>kB i KiB fan servir bases diferents: 1.000 i 1.024 bytes.</li>
-                <li>La codificaciÛ indica com s'interpreten els bytes d'un text.</li>
-                <li>Si el fitxer i la codificaciÛ declarada no coincideixen, les lletres especials poden aparËixer malament.</li>
+                <li>La codificaci√≥ indica com s'interpreten els bytes d'un text.</li>
+                <li>Si el fitxer i la codificaci√≥ declarada no coincideixen, les lletres especials poden apar√®ixer malament.</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>Resum de rep‡s ∑ Sistemes Operatius Monolloc</p>
+        <p>Resum de rep√†s ¬∑ Sistemes Operatius Monolloc</p>
         <a class="enllac-amunt" href="#inici">Torna a l'inici ?</a>
     </footer>
 </body>
